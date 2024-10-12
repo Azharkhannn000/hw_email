@@ -1,0 +1,37 @@
+.lets{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: aliceblue;
+}
+.container{
+    background-color: white;
+    border-radius: 7px;
+    padding: 40px;
+    padding-left: 10px;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgb(172, 199, 221);
+}
+button{
+    background-color: rgb(40, 151, 241);
+    color: white;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+}
+input[type="text"]{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid rgb(156, 155, 155);
+}
+.box{
+    display: flex;
+    align-self: flex-start;
+    text-align: left;
+}
